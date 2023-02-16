@@ -1,0 +1,246 @@
+{
+    "version": "1.0",
+    "timestamp": "2023-02-12T00:00:00Z",
+    "ixp_list": [
+        {
+            "shortname": "Miaowoo Ashburn",
+            "name": "Miaowoo Internet Exchange Ashburn",
+            "country": "US",
+            "url": "https://ix.wjy.me",
+            "ixf_id": 0,
+            "ixp_id": 1,
+            "support_email": "wjy@wjy.me",
+            "support_phone": "+1 203 679 9898",
+            "support_contact_hours": "24x7",
+            "emergency_email": "wjy@wjy.me",
+            "emergency_phone": "+1 203 679 9898",
+            "emergency_contact_hours": "24x7",
+            "billing_contact_hours": "24x7",
+            "billing_email": "wjy@wjy.me",
+            "billing_phone": "wjy@wjy.me",
+            "peering_policy_list": [
+                "open",
+                "selective",
+                "mandatory",
+                "closed"
+            ],
+            "vlan": [
+                {
+                    "id": 1,
+                    "name": "IX",
+                    "ipv6": {
+                        "prefix": "2a0e:b107:1b20::",
+                        "mask_length": 64,
+                        "looking_glass_urls": [
+                            "https://lg.wjy.me"
+                        ]
+                    }
+                }
+            ],
+            "switch": [
+                {
+                    "id": 1,
+                    "name": "sw1",
+                    "colo": "Miaowoo Ashburn",
+                    "city": "Ashburn",
+                    "country": "US",
+                    "manufacturer": "Linux",
+                    "model": "BR",
+                    "software": ""
+                }
+            ]
+        }
+    ],
+    "member_list": [
+        {
+            "asnum": 57934,
+            "member_since": "2023-02-12T00:00:00Z",
+            "url": "https://wjy.me",
+            "name": "Miaowoo Network",
+            "peering_policy": "open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 1,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 1,
+                            "ipv6": {
+                                "address": "2a0e:b107:1b20::5:7934:1",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 100
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 138211,
+            "member_since": "2023-02-12T00:00:00Z",
+            "url": "https://network.moeqing.com/en",
+            "name": "MQNET",
+            "peering_policy": "open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 1,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 1,
+                            "ipv6": {
+                                "address": "2a0e:b107:1b20::13:8211:1",
+                                "as_macro": "AS-MOEQING",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 100
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 142551,
+            "member_since": "2023-02-12T00:00:00Z",
+            "url": "https://www.lapinet27.com",
+            "name": "Azurite27 Network",
+            "peering_policy": "open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 1,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 1,
+                            "ipv6": {
+                                "address": "2a0e:b107:1b20::14:2551:1",
+                                "as_macro": "AS-RAZU-AP",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 100
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 200536,
+            "member_since": "2023-02-12T00:00:00Z",
+            "url": "https://186526.net",
+            "name": "186526 Network",
+            "peering_policy": "open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 1,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 1,
+                            "ipv6": {
+                                "address": "2a0e:b107:1b20::20:536:1",
+                                "as_macro": "AS-NET186",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 100
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 200949,
+            "member_since": "2023-02-12T00:00:00Z",
+            "url": "https://blw.moe",
+            "name": "Bling Network",
+            "peering_policy": "open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 1,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 1,
+                            "ipv6": {
+                                "address": "2a0e:b107:1b20::20:949:1",
+                                "as_macro": "AS-BLING",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 100
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 203899,
+            "member_since": "2023-02-12T00:00:00Z",
+            "url": "https://jingyuan.wang",
+            "name": "WJY Network",
+            "peering_policy": "open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 1,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 1,
+                            "ipv6": {
+                                "address": "2a0e:b107:1b20::20:3899:1",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 100
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

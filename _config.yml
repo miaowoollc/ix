@@ -1,0 +1,17 @@
+name: Miaowoo Internet Exchange
+description: A non-profit Internet Exchange Point
+remote_theme: pages-themes/primer@v0.6.0
+title: null
+plugins:
+  - jekyll-relative-links
+  - jekyll-remote-theme
+  - jekyll-readme-index
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - ./README.md
+readme_index:
+  enabled: true
+  remove_originals: false
+  with_frontmatter: false
