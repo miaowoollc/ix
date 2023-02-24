@@ -243,6 +243,38 @@
             ]
         },
         {
+            "asnum": 203236,
+            "member_since": "2023-02-12T00:00:00Z",
+            "url": "https://lilynet.work",
+            "name": "Lily Network",
+            "peering_policy": "open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 1,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 1,
+                            "ipv6": {
+                                "address": "2a0e:b107:1b20::20:3236:1",
+                                "as_macro": "AS-LILY",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 100
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "asnum": 203899,
             "member_since": "2023-02-12T00:00:00Z",
             "url": "https://jingyuan.wang",
